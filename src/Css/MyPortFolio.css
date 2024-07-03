@@ -1,0 +1,44 @@
+.pages {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #caf0f8; */
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+.Nav-Link {
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.MyPortFlio {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .MyPortFlio:hover{
+        background-color: transparent;
+    } */
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+.nav-brand {
+  color: white;
+  flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+
+  
+  .MyPortFlio{
+    height: 100%;
+    width: 300%;
+  }
+}
