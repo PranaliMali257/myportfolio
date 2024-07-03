@@ -9,7 +9,7 @@ function Experience() {
       {/* <h3>Experience</h3> */}
       <div className="experience-field">
         <div class="cards">
-          <div class="card red">
+          {/* <div class="card red">
             <p class="tip">Infosys</p>
             <p class="second-text">
               The workshop at Infosys provided a comprehensive learning
@@ -18,7 +18,7 @@ function Experience() {
               skills and knowledge essential for navigating the evolving
               landscape of digital transformation in the financial sector
             </p>
-          </div>
+          </div> */}
           <div class="card blue">
             <p class="tip">Technoweit</p>
             <p class="second-text">

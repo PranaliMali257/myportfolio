@@ -62,13 +62,14 @@ button:hover {
   /* margin-left: 80%; */
 }
 .contact-field {
-  height: 100%;
-  width: 50%;
+  /* height: 100%;
+  width: 50%; */
 }
 .textcontainer {
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-top: 8%;
   
 }
 .textcontainer h3 {
