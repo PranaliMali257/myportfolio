@@ -11,7 +11,7 @@ const Home = () => {
       <div className="home-page">
         {/* <h2 className="home-h3"></h2> */}
         <div className="home-name">
-          <h2>Hello ! </h2>
+          <h1>Hello ! </h1>
           <h2>I'm Pranali Mali</h2>
           <h3>MERN Stack Developer</h3>
           <p>

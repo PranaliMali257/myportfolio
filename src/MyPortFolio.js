@@ -10,7 +10,7 @@ const MyPortFolio = () => {
       <Navbar expand="lg" sticky="top" fixed="top" className="MyPortFlio">
         <Container>
           <Navbar.Brand className="nav-brand">
-            <img src={img} className="img" /><div style={{color:'', marginTop:'-40px', marginLeft:'70px'}}>  MyPortFolio</div>
+            <img src={img} className="img" /><div style={{color:'', marginTop:'-40px', marginLeft:'70px'}}>  PortFolio</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
