@@ -6,10 +6,11 @@ import { Carousel, Image } from "react-bootstrap";
 
 const Project = () => {
   return (
+    
     <div className="project-div">
       <Carousel>
         <Carousel.Item>
-          <Image className="img-div" src={Foodimg}></Image>
+          <Image className="p-tag" src={Foodimg}></Image>
           {/* <Carousel.Caption>
             <h3>Food Project</h3>
             <p>Food Information all detail </p>
@@ -17,7 +18,7 @@ const Project = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <Image className="img-div" src={Fimg}></Image>
+          <Image className="p-tag" src={Fimg}></Image>
           {/* <Carousel.Caption>
             <h3>JOb Way - Job Portal</h3>
             <p>Job Portal all Information All Detail</p>
@@ -25,6 +26,7 @@ const Project = () => {
         </Carousel.Item>
       </Carousel>
     </div>
+  
   );
 };
 
